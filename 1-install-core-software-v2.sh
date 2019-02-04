@@ -13,14 +13,9 @@ set -e
 
 #software from 'normal' repositories
 sudo apt-get install -y catfish clementine curl dconf-cli dconf-editor dropbox evolution focuswriter geany geary gimp gpick
-sudo apt-get install -y glances gparted grsync hardinfo inkscape meld
+sudo apt-get install -y glances gparted grsync hardinfo inkscape meld kdenlive frei0r-plugins
 sudo apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
 sudo apt-get install -y thunar vlc vnstat   
-
-
-#operating specific software
-
-# sudo apt-get install nemo-compare -y
 
 ###############################################################################################
 
@@ -29,17 +24,17 @@ sudo apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar
 
 ###############################################################################################
 
+# Directories 
+mkdir $HOME/apps
 
-#ending
-#mkdir $HOME/Upload
-#sudo apt-get -y update
+# Completely update the OS
+sudo apt-get -y update
+sudo apt-get -y upgrade
+
 #sudo apt-get -f -y install
-#sudo apt-get -y upgrade
 #sudo apt-get -y autoremove
 #sudo apt-get -y autoclean
-
 
 echo "################################################################"
 echo "###################    core software installed  ################"
 echo "################################################################"
-

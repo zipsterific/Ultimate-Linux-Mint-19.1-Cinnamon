@@ -14,7 +14,7 @@
 # will not install to error....????
 
 
-rm /tmp/atom-amd64.deb
+# rm /tmp/atom-amd64.deb
 
 wget https://atom.io/download/deb -O /tmp/atom-amd64.deb
 #curl -o /tmp/code_1.5.3-1474533365_amd64.deb https://code.visualstudio.com/docs/?dv=linux64_deb
