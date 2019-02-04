@@ -11,7 +11,7 @@
 #
 ##################################################################################################################
 
-wget https://files.kde.org/kdenlive/release/kdenlive-18.12.1b-x86_64.appimage -O $USER/apps
+wget https://files.kde.org/kdenlive/release/kdenlive-18.12.1b-x86_64.appimage -O $USER/Apps
 
 echo "################################################################"
 echo "#############   stand-alone kdenlive installed   ###############"

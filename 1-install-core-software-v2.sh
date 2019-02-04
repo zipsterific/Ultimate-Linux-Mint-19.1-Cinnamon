@@ -25,7 +25,8 @@ sudo apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar
 ###############################################################################################
 
 # Directories 
-mkdir $HOME/apps
+mkdir $HOME/Apps
+chown alan:alan $HOME/Apps
 
 # Completely update the OS
 sudo apt-get -y update
