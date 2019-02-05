@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+# set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -10,6 +10,12 @@ set -e
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+
+MYID=`id -u`
+if [ $MYID -ne 0 ]; then
+   echo "This script must be run as root or sudo'ed!" 1>&2
+   exit 1
+fi
 
 # Conky Aureola
 

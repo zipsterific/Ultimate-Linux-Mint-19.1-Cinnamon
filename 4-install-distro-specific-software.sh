@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+# set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -11,10 +11,13 @@ set -e
 #
 ##################################################################################################################
 
-
+MYID=`id -u`
+if [ $MYID -ne 0 ]; then
+   echo "This script must be run as root or sudo'ed!" 1>&2
+   exit 1
+fi
 
 sudo apt install -y nemo-dropbox adobe-flashplugin
-
 
 echo "################################################################"
 echo "#############      distro specific software    #################"
