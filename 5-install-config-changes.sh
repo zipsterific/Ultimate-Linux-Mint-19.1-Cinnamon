@@ -32,7 +32,7 @@ echo "################################################################"
 echo "#############      distro specific software    #################"
 echo "################################################################"
 
-/sbin/shutdown -r -t sec 10
-
 echo " Rebooting In 10 Seconds..."
+sleep 10
+shutdown -r now
 
