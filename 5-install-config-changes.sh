@@ -18,7 +18,8 @@ if [ $MYID -ne 0 ]; then
 fi
 
 if grep -q '^#/net' /etc/auto.master; then 
-  sed -i '/^#/net/ s/^#//' /etc/auto.master
+  sed -i '/^#\/net/ s/^#//' /etc/auto.master
+  systemctl restart autofs.service
 else 
   echo 1
 fi
