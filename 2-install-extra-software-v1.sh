@@ -25,7 +25,8 @@ sh install-atom-v*.sh
 
 # Brave
 
-sh install-brave-v*.sh
+# sh install-brave-v*.sh
+# need to figure out sources issue
 
 ###############################################################################################
 
@@ -53,34 +54,9 @@ sh install-kdenlive-v*.sh
 
 ###############################################################################################
 
-# Brackets
-
-# sh install-brackets-v*.sh
-# libcurl3 and libgcryptll issues
-# E: Package 'libgcrypt11' has no installation candidate
-# dpkg: dependency problems prevent configuration of brackets:
-# brackets depends on libcurl3; however:
-# Package libcurl3 is not installe 
-
-###############################################################################################
-
 # Google Chrome
 
 sh install-google-chrome-v*.sh
-
-###############################################################################################
-
-# Gradio
-
-# sh install-gradio-v*.sh
-# don't need it
-
-###############################################################################################
-
-# Neofetch
-
-# sh install-neofetch-v*.sh
-# don't need it, use screenfetch
 
 ###############################################################################################
 
@@ -119,12 +95,6 @@ sh install-lollypop-v*.sh
 sh install-sublime-text-v*.sh
 
 ###############################################################################################
-
-# Teamviewer
-
-#sh install-teamviewer-v*.sh
-
-#############################################################################################
 
 # Variety
 
