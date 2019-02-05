@@ -11,16 +11,22 @@ set -e
 #
 ##################################################################################################################
 
+MYID=`id -u`
+if [ $MYID -ne 0 ]; then
+   echo "This script must be run as root or sudo'ed!" 1>&2
+   exit 1
+fi
+
 #software from 'normal' repositories
-sudo apt-get install -y catfish clementine curl dconf-cli dconf-editor dropbox evolution focuswriter geany geary gimp gpick
-sudo apt-get install -y glances gparted grsync hardinfo inkscape meld kdenlive frei0r-plugins
-sudo apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
-sudo apt-get install -y thunar vlc vnstat   
+apt-get install -y catfish clementine curl dconf-cli dconf-editor dropbox evolution focuswriter geany geary gimp gpick
+apt-get install -y glances gparted grsync hardinfo inkscape meld kdenlive frei0r-plugins
+apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
+apt-get install -y thunar vlc vnstat   
 
 ###############################################################################################
 
 # installation of zippers and unzippers
-sudo apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
+apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
 
 ###############################################################################################
 
@@ -29,8 +35,8 @@ mkdir $HOME/Apps
 chown alan:alan $HOME/Apps
 
 # Completely update the OS
-sudo apt-get -y update
-sudo apt-get -y upgrade
+apt-get -y update
+apt-get -y upgrade
 
 #sudo apt-get -f -y install
 #sudo apt-get -y autoremove
