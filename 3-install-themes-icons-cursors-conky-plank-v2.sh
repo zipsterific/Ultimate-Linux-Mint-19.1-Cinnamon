@@ -13,7 +13,7 @@ set -e
 
 # Conky Aureola
 
-sh conky-aureola-v*.sh
+# sh conky-aureola-v*.sh
 
 ###############################################################################################
 
@@ -37,37 +37,37 @@ sh icons-surfn-v*.sh
 
 # Arc theme
 
-sh install-gtk-arc-theme-v*.sh
+# sh install-gtk-arc-theme-v*.sh
 
 #############################################################################################
 
 # Arc-flatabulous theme
 
-sh install-arc-flatabulous-theme-v*.sh
+# sh install-arc-flatabulous-theme-v*.sh
 
 #############################################################################################
 
 # Plank themes
 
-sh plank-themes-v*.sh
+# sh plank-themes-v*.sh
 
 ###############################################################################################
 
 # Arc themes
 
-sh theme-arc-colora-collection-3.*.sh
+# sh theme-arc-colora-collection-3.*.sh
 
 ###############################################################################################
 
 # Mint-Y themes
 
-sh theme-mint-y-colora-collection-3.*.sh
+# sh theme-mint-y-colora-collection-3.*.sh
 
 ###############################################################################################
 
 # Cursor theme
 
-sudo apt-get install -y breeze-cursor-theme
+# sudo apt-get install -y breeze-cursor-theme
 
 
 
