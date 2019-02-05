@@ -38,6 +38,7 @@ sh icons-surfn-v*.sh
 # Arc theme
 
 # sh install-gtk-arc-theme-v*.sh
+sh install-arc-theme-v1.sh
 
 #############################################################################################
 
@@ -49,13 +50,19 @@ sh icons-surfn-v*.sh
 
 # Plank themes
 
-# sh plank-themes-v*.sh
+sh plank-themes-v*.sh
 
 ###############################################################################################
 
 # Arc themes
 
 # sh theme-arc-colora-collection-3.*.sh
+
+###############################################################################################
+
+# Matcha theme
+
+sh install-matcha-theme-v1.sh
 
 ###############################################################################################
 
@@ -67,10 +74,7 @@ sh icons-surfn-v*.sh
 
 # Cursor theme
 
-# sudo apt-get install -y breeze-cursor-theme
-
-
-
+sudo apt-get install -y breeze-cursor-theme
 
 echo "################################################################"
 echo "#############       eye candy software         #################"
