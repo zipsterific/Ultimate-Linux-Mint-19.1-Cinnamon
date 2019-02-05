@@ -17,6 +17,30 @@ sh install-atom-v*.sh
 
 ###############################################################################################
 
+# Brave
+
+sh install-brave-v*.sh
+
+###############################################################################################
+
+# VirtualBox
+
+sh install-virtualbox-v*.sh
+
+###############################################################################################
+
+# Vagrant
+
+sh install-vagrant-v*.sh
+
+###############################################################################################
+
+# Overgrive
+
+sh install-overgrive-v*.sh
+
+###############################################################################################
+
 # kdenlive app image
 
 sh install-kdenlive-v*.sh
@@ -57,10 +81,6 @@ sh install-google-chrome-v*.sh
 # Peek
 
 sh install-peek-v*.sh
-# has ffmpeg install issue
-# The following packages have unmet dependencies:
-#  ffmpeg : Depends: libavdevice57 (>= 7:3.4.4) but it is not going to be installed
-#           Depends: libsdl2-2.0-0 (>= 2.0.8) but it is not going to be installed
 
 ###############################################################################################
 
