@@ -26,7 +26,7 @@ fi
 
 # A catch-all system update and reboot
 apt-get update
-att-get upgrade -y
+apt-get upgrade -y
 
 echo "################################################################"
 echo "#############      distro specific software    #################"
