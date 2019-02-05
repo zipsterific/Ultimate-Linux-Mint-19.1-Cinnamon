@@ -19,10 +19,14 @@ fi
 
 if grep -q '^#/net' /etc/auto.master; then 
   sed -i '/^#\/net/ s/^#//' /etc/auto.master
-  systemctl restart autofs.service
+  # systemctl restart autofs.service
 else 
   echo 1
 fi
+
+# A catch-all system update and reboot
+apt-get update
+att-get upgrade -y
 
 echo "################################################################"
 echo "#############      distro specific software    #################"
