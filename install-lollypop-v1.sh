@@ -11,10 +11,10 @@
 #
 ##################################################################################################################
 
-wget https://files.kde.org/kdenlive/release/kdenlive-18.12.1b-x86_64.appimage -O $HOME/Apps/kdenlive-18-12.1b.appimage
-chown alan:alan $HOME/Apps/kdenlive-18-12.1b.appimage
-chmod 755 $HOME/Apps/kdenlive-18-12.1b.appimage
+add-apt-repository ppa:gnumdk/lollypop -y
+apt update
+apt install lollypop -y
 
 echo "################################################################"
-echo "#############   stand-alone kdenlive installed   ###############"
+echo "######################  lollypop installed  ####################"
 echo "################################################################"
