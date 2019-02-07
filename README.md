@@ -1,4 +1,5 @@
 # Ultimate Linux Mint 19.1 Tessa Cinnamon
+## Based on Eric Dubois Post OS Build Scripts for Linux Mint
 
 After installing these scripts you will arrive at a different kind of Linux Mint.
 
