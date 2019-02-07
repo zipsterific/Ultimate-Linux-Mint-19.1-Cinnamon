@@ -19,7 +19,7 @@ fi
 
 #software from 'normal' repositories
 apt-get install -y catfish clementine curl dconf-cli dconf-editor dropbox evolution focuswriter geany geary gimp gpick
-apt-get install -y glances gparted grsync hardinfo inkscape meld kdenlive frei0r-plugins nfs-common autofs
+apt-get install -y glances gparted grsync hardinfo inkscape meld kdenlive frei0r-plugins nfs-common autofs restic
 apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
 apt-get install -y thunar vlc vnstat   
 
