@@ -23,6 +23,9 @@ apt-get install -y glances gparted grsync hardinfo inkscape meld kdenlive frei0r
 apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
 apt-get install -y thunar vlc vnstat ubuntu-restricted-addons ubuntu-restricted-extras
 
+# Removals
+apt-get remove -y xplayer
+
 ###############################################################################################
 
 # installation of zippers and unzippers
