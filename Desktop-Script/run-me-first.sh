@@ -9,5 +9,5 @@ sleep 10
 
 crontab -r
 
-# Put this in cron to run on fist boot
+# Put this in cron to run on first boot. Used when testing this script using a VirtualBox machine.
 # @reboot /home/alan/Desktop/run-me-first.sh >> $HOME/log.out 2>&1
