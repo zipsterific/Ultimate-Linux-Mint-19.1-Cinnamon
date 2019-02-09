@@ -29,7 +29,7 @@ apt-get update
 apt-get upgrade -y
 
 echo "################################################################"
-echo "#############      distro specific software    #################"
+echo "#############   Some config changes complete   #################"
 echo "################################################################"
 
 echo " Rebooting In 10 Seconds..."
