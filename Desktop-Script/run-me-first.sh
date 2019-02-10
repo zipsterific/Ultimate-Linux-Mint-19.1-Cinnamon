@@ -11,3 +11,4 @@ crontab -r
 
 # Put this in cron to run on first boot. Used when testing this script using a VirtualBox machine.
 # @reboot /home/alan/Desktop/run-me-first.sh >> $HOME/log.out 2>&1
+# Another version: @reboot ( sleep 90 ; sh /location/script.sh )
