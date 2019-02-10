@@ -18,13 +18,15 @@ if [ $MYID -ne 0 ]; then
 fi
 
 #software from 'normal' repositories
+apt-get update -y
 apt-get install -y catfish clementine curl dconf-cli dconf-editor dropbox evolution focuswriter geany geary gimp gpick
 apt-get install -y glances gparted grsync hardinfo inkscape meld kdenlive frei0r-plugins nfs-common autofs restic screen
 apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse photocollage
 apt-get install -y thunar vlc vnstat ubuntu-restricted-addons ubuntu-restricted-extras powertop linux-tools-common
 apt-get install -y linux-tools-generic linux-cloud-tools-generic conky apcupsd audacious moc mpd xmms2 openssh-server
+apt-get upgrade -y
 
-# Removals
+# Annoying default install packages to remove
 apt-get remove -y xplayer
 
 ###############################################################################################
@@ -37,10 +39,6 @@ apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uude
 # Directories 
 mkdir $HOME/Apps
 chown alan:alan $HOME/Apps
-
-# Completely update the OS
-apt-get -y update
-apt-get -y upgrade
 
 #sudo apt-get -f -y install
 #sudo apt-get -y autoremove
