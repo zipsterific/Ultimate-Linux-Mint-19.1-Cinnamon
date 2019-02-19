@@ -1,9 +1,8 @@
 #!/bin/bash
 #
 ##################################################################################################################
-# Written to be used on 64 bits computers
-# Author 	: 	Erik Dubois
-# Website 	: 	http://www.erikdubois.be
+# Written to be used on 64 bit systems
+# Author 	: 	Alan Ebbert
 ##################################################################################################################
 ##################################################################################################################
 #
@@ -11,13 +10,10 @@
 #
 ##################################################################################################################
 
-sudo add-apt-repository 'deb http://repo.vivaldi.com/archive/deb/ stable main'
-wget -qO- http://repo.vivaldi.com/archive/linux_signing_key.pub | sudo apt-key add -
-sudo apt update
-sudo apt install vivaldi-snapshot
-
-##################################################################################################################
+wget https://download.nomachine.com/download/6.4/Linux/nomachine_6.4.6_1_amd64.deb -O /tmp/nomachine.deb
+dpkg -i /tmp/nomachine.deb
+rm /tmp/nomachine.deb
 
 echo "################################################################"
-echo "###################     vivaldi installed    ###################"
+echo "#################### NoMachine Installed #######################"
 echo "################################################################"
