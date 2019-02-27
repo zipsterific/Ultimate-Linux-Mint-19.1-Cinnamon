@@ -24,7 +24,7 @@ apt-get install -y glances gparted grsync hardinfo inkscape meld kdenlive frei0r
 apt-get install -y openshot pinta plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse photocollage
 apt-get install -y thunar vlc vnstat ubuntu-restricted-addons ubuntu-restricted-extras powertop linux-tools-common python-gpg
 apt-get install -y linux-tools-generic linux-cloud-tools-generic conky-all apcupsd audacious moc mpd xmms2 openssh-server
-apt-get install -y python-pip python3-venv
+apt-get install -y python-pip python3-venv gpart 
 apt-get upgrade -y
 
 # Annoying default install packages to remove
